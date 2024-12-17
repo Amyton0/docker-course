@@ -1,4 +1,4 @@
-﻿FROM mcr.microsoft.com/dotnet/aspnet:8.0-alpine
+FROM mcr.microsoft.com/dotnet/aspnet:8.0-alpine
 EXPOSE 8080
 FROM mcr.microsoft.com/dotnet/sdk:8.0 as mcr
 WORKDIR /WebApp
